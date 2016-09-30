@@ -2,6 +2,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
 
 public class ThreadPoolApp {
+  //takes a number of jobs and spreads them out over multiple threads
   public static void main (String [] args) {
     if (args.length < 2) ThreadPoolApp.error();
 try {
